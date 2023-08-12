@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%) ;
+}
+
+.contenedor{
+    width: 375px;
+    background-color: white;
+    border-radius: 10px ;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    position: relative;
+    bottom: -40px;
+
+}
+
+.contenedor-texto{
+    padding: 23px;
+}
+
+.imagen{
+    width: 375px;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 6px;
+}
+
+.type-product{
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    padding-bottom: 10px; 
+    
+}
+
+.title-product{
+    font-family: 'Fraunces', serif;
+    padding-bottom: 15px;
+    
+}
+
+.description-product{
+    padding-bottom: 30px;
+}
+
+.contenedor-precios{
+    position: relative;
+}
+
+.price{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+
+.price, .discount-price{
+    display: inline-block;
+}
+
+.discount-price{
+    padding-left: 20px;
+    text-decoration: line-through;
+    font-size: 13px;
+    position: absolute;
+    top: 10px;
+
+}
+
+.image-button-cart{
+    width: 15px;
+    height: auto;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%) ;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;   
+    margin-bottom: 10px;
+}
+
+button span{
+    margin-left: 30px;
+}
+
+button img{
+    position: absolute;    
+}
